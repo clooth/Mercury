@@ -11,12 +11,15 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <CocoaLumberjack/DDLog.h>
+    #import "NSNumber+Random.h"
+    #import "NSSet+Extras.h"
+    #import "Constants.h"
+    #import "Macros.h"
 #endif
-
-#import <CocoaLumberjack/DDLog.h>
 
 #ifdef DEBUG
 static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 #else
-static const int ddLogLevel = LOG_LEVEL_WARN;
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 #endif

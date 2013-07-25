@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		0318B17D1795FCAD00BE2771 /* MercuryNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0318B17C1795FCAD00BE2771 /* MercuryNavigationController.m */; };
 		0318B17E1795FCAD00BE2771 /* MercuryNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0318B17C1795FCAD00BE2771 /* MercuryNavigationController.m */; };
+		0318B18117960C0E00BE2771 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 0318B18017960C0E00BE2771 /* Assets */; };
+		0318B18217960C0E00BE2771 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 0318B18017960C0E00BE2771 /* Assets */; };
+		0318B18617960D7500BE2771 /* BoardLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0318B18517960D7500BE2771 /* BoardLayer.m */; };
+		0318B18717960D7500BE2771 /* BoardLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0318B18517960D7500BE2771 /* BoardLayer.m */; };
+		0318B18B17960DD900BE2771 /* BoardPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 0318B18A17960DD900BE2771 /* BoardPiece.m */; };
+		0318B18C17960DD900BE2771 /* BoardPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 0318B18A17960DD900BE2771 /* BoardPiece.m */; };
+		0318B19017960EBC00BE2771 /* NSNumber+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 0318B18F17960EBC00BE2771 /* NSNumber+Random.m */; };
+		0318B19117960EBC00BE2771 /* NSNumber+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 0318B18F17960EBC00BE2771 /* NSNumber+Random.m */; };
+		0318B19417961AAD00BE2771 /* BattleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0318B19317961AAD00BE2771 /* BattleLayer.m */; };
+		0318B19517961AAD00BE2771 /* BattleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0318B19317961AAD00BE2771 /* BattleLayer.m */; };
+		03C0C44817A05E1300D58940 /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0C44717A05E1300D58940 /* Enemy.m */; };
+		03C0C44E17A0A68100D58940 /* NSSet+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C0C44D17A0A68100D58940 /* NSSet+Extras.m */; };
 		03D10A64178CB38100C26DC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D10A63178CB38100C26DC6 /* UIKit.framework */; };
 		03D10A66178CB38100C26DC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D10A65178CB38100C26DC6 /* Foundation.framework */; };
 		03D10A68178CB38100C26DC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D10A67178CB38100C26DC6 /* CoreGraphics.framework */; };
@@ -39,6 +51,21 @@
 /* Begin PBXFileReference section */
 		0318B17B1795FCAD00BE2771 /* MercuryNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MercuryNavigationController.h; sourceTree = "<group>"; };
 		0318B17C1795FCAD00BE2771 /* MercuryNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MercuryNavigationController.m; sourceTree = "<group>"; };
+		0318B18017960C0E00BE2771 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		0318B18417960D7500BE2771 /* BoardLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardLayer.h; sourceTree = "<group>"; };
+		0318B18517960D7500BE2771 /* BoardLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardLayer.m; sourceTree = "<group>"; };
+		0318B18917960DD900BE2771 /* BoardPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardPiece.h; sourceTree = "<group>"; };
+		0318B18A17960DD900BE2771 /* BoardPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardPiece.m; sourceTree = "<group>"; };
+		0318B18E17960EBC00BE2771 /* NSNumber+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Random.h"; sourceTree = "<group>"; };
+		0318B18F17960EBC00BE2771 /* NSNumber+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Random.m"; sourceTree = "<group>"; };
+		0318B19217961AAD00BE2771 /* BattleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleLayer.h; sourceTree = "<group>"; };
+		0318B19317961AAD00BE2771 /* BattleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleLayer.m; sourceTree = "<group>"; };
+		03C0C44617A05E1300D58940 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		03C0C44717A05E1300D58940 /* Enemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enemy.m; sourceTree = "<group>"; };
+		03C0C44A17A0666300D58940 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		03C0C44B17A07B8900D58940 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		03C0C44C17A0A68100D58940 /* NSSet+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+Extras.h"; sourceTree = "<group>"; };
+		03C0C44D17A0A68100D58940 /* NSSet+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Extras.m"; sourceTree = "<group>"; };
 		03D10A60178CB38100C26DC6 /* Mercury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mercury.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D10A63178CB38100C26DC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		03D10A65178CB38100C26DC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +114,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0318B18317960C1F00BE2771 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				0318B19217961AAD00BE2771 /* BattleLayer.h */,
+				0318B19317961AAD00BE2771 /* BattleLayer.m */,
+				0318B18417960D7500BE2771 /* BoardLayer.h */,
+				0318B18517960D7500BE2771 /* BoardLayer.m */,
+			);
+			name = Layers;
+			sourceTree = "<group>";
+		};
+		0318B18817960DC900BE2771 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				0318B18917960DD900BE2771 /* BoardPiece.h */,
+				0318B18A17960DD900BE2771 /* BoardPiece.m */,
+				03C0C44617A05E1300D58940 /* Enemy.h */,
+				03C0C44717A05E1300D58940 /* Enemy.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		0318B18D17960E9000BE2771 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0318B18E17960EBC00BE2771 /* NSNumber+Random.h */,
+				0318B18F17960EBC00BE2771 /* NSNumber+Random.m */,
+				03C0C44C17A0A68100D58940 /* NSSet+Extras.h */,
+				03C0C44D17A0A68100D58940 /* NSSet+Extras.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		03C0C44917A065D900D58940 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				03C0C44A17A0666300D58940 /* Constants.h */,
+				03C0C44B17A07B8900D58940 /* Macros.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
 		03D10A57178CB38100C26DC6 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +191,11 @@
 		03D10A69178CB38100C26DC6 /* Mercury */ = {
 			isa = PBXGroup;
 			children = (
+				03C0C44917A065D900D58940 /* Headers */,
+				0318B18D17960E9000BE2771 /* Categories */,
+				0318B18317960C1F00BE2771 /* Layers */,
+				0318B18817960DC900BE2771 /* Entities */,
+				0318B18017960C0E00BE2771 /* Assets */,
 				0318B17B1795FCAD00BE2771 /* MercuryNavigationController.h */,
 				0318B17C1795FCAD00BE2771 /* MercuryNavigationController.m */,
 				03D10A72178CB38200C26DC6 /* MercuryDelegate.h */,
@@ -241,6 +315,7 @@
 				03D10A76178CB38200C26DC6 /* Default.png in Resources */,
 				03D10A78178CB38200C26DC6 /* Default@2x.png in Resources */,
 				03D10A7A178CB38200C26DC6 /* Default-568h@2x.png in Resources */,
+				0318B18117960C0E00BE2771 /* Assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03D10A8C178CB38200C26DC6 /* InfoPlist.strings in Resources */,
+				0318B18217960C0E00BE2771 /* Assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +382,12 @@
 				03D10A70178CB38200C26DC6 /* main.m in Sources */,
 				03D10A74178CB38200C26DC6 /* MercuryDelegate.m in Sources */,
 				0318B17D1795FCAD00BE2771 /* MercuryNavigationController.m in Sources */,
+				0318B18617960D7500BE2771 /* BoardLayer.m in Sources */,
+				0318B18B17960DD900BE2771 /* BoardPiece.m in Sources */,
+				0318B19017960EBC00BE2771 /* NSNumber+Random.m in Sources */,
+				0318B19417961AAD00BE2771 /* BattleLayer.m in Sources */,
+				03C0C44817A05E1300D58940 /* Enemy.m in Sources */,
+				03C0C44E17A0A68100D58940 /* NSSet+Extras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +397,10 @@
 			files = (
 				03D10A8F178CB38200C26DC6 /* MercuryTests.m in Sources */,
 				0318B17E1795FCAD00BE2771 /* MercuryNavigationController.m in Sources */,
+				0318B18717960D7500BE2771 /* BoardLayer.m in Sources */,
+				0318B18C17960DD900BE2771 /* BoardPiece.m in Sources */,
+				0318B19117960EBC00BE2771 /* NSNumber+Random.m in Sources */,
+				0318B19517961AAD00BE2771 /* BattleLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9DEC25971C85434AA45CA8A5 /* Pods.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mercury/Mercury-Prefix.pch";
 				INFOPLIST_FILE = "Mercury/Mercury-Info.plist";
@@ -420,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9DEC25971C85434AA45CA8A5 /* Pods.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mercury/Mercury-Prefix.pch";
 				INFOPLIST_FILE = "Mercury/Mercury-Info.plist";

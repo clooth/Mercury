@@ -7,6 +7,7 @@
 //
 
 #import "MercuryNavigationController.h"
+#import "BattleLayer.h"
 
 @interface MercuryNavigationController ()
 
@@ -20,9 +21,8 @@
 
 - (void)directorDidReshapeProjection:(CCDirector *)director {
     if (director.runningScene == nil) {
-        // TODO: Run first scene with director
+        [director runWithScene:[BattleLayer scene]];
     }
-    
 }
 
 @end

@@ -22,7 +22,7 @@
     
     // CCGLView
     CCGLView *glView = [CCGLView viewWithFrame:window.bounds
-                                   pixelFormat:kEAGLColorFormatRGB565
+                                   pixelFormat:kEAGLColorFormatRGBA8
                                    depthFormat:0
                             preserveBackbuffer:NO
                                     sharegroup:nil
@@ -41,7 +41,7 @@
         DDLogInfo(@"Running on a non-retina device.");
     }
     
-    [CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_RGB888];
+    [CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_RGBA8888];
     [CCTexture2D PVRImagesHavePremultipliedAlpha:YES];
     
     CCFileUtils *sharedFileUtils = [CCFileUtils sharedFileUtils];
